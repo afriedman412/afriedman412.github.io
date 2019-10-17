@@ -1,14 +1,9 @@
 ---
+layout: post
 title: The MTA Discovers Twitter
-excerpt_separator: "<!--more-->"
-categories:
-  - Blog
-tags:
-  - Post Formats
-  - readability
-  - standard
+summary: Customer service in the age of being delayed because of train traffic ahead of us.
 ---
-
+ _[Git](https://github.com/afriedman412/mta_brakes)_   
 This year, the New York Metropolitan Transit Authority made a splash by very publicly hiring a new team of public-facing employees. Subway service has notably declined in our fair city, to put it lightly, as officials opted to spend on high-profile new lines and station remodeling and random bailouts to forlorn ski resorts, instead of performing desperately-needed maintanance. Making matters worse was the very public feud between New York Governor Andrew Cuomo and New York City Mayor Bill DiBlasio: Ownership of the quasi-public MTA is a complicated issue, as its jurisdiction extends beyond the city limits (to say nothing of the financial implications of its performance for the entire state), and it can be tough to suss out where one man's responsibility ends and the other's begins. To say the least.
 
 Anyways, while it remains unclear when the hell the subway will once again run reliably, these new hires meant a significantly improved social media team. The official MTA twitter feed (@NYCTSubway, for some reason) no longer only tweets cryptic, formulaic messages with vague warnings. Service advisories are more timely and somewhat less opaque. The account now also responds to individual tweets complaining about service.
