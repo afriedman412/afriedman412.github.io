@@ -15,7 +15,7 @@ Before the rise of digital music, artists who wanted to be heard basically had t
 
 The lower bar for recording and releasing predictably led to more music, especially if people were buying. With mixtapes going for $10 a pop, it made sense to test the limits of demand. So while official albums were still on a reasonable ~12-month cycle, things moved much faster at street level. The internet only pushed things further. CD's were still limited to 80-minutes, but DatPiff was less stringent. There was no reason for Gucci Mane to not put out three mixtapes in one day, or for Lil B to have 100+ MySpace accounts, each with 8 unique tracks, or for Gorilla Zoe to put out a tape every day for the entire month of February 2010.
 
-![you wasnt there!](../../../images/mixtape_length_files/mmmr.jpg "this was the best")
+![you wasnt there!](../../../assets/images/mixtape_length_files/mmmr.jpg "this was the best")
 
 Things have evened out somewhat since then, I think. There is still entirely too much music, but I feel like there's also been a cross-cultural realization that "music" is just "content", and diversification of content is crucial for a modern celebrity. Maybe instead of 25 tracks a month, do 12 tracks evey two months and be funny on IG. Or, in the extreme, get famous for something unrelated to rapping and then record your first song. But long-as-hell tapes no longer seem the norm, and seem no more common than self-proclaimed EP's of 6 to 10 songs.
 
@@ -46,20 +46,20 @@ After processing, we have 1415 tracks from 115 projects from 67 individual artis
 
 Album length is approximately normally distributed, with a mean of 14. Normalized play counts are mostly under 0.2, with a small peak at 1.0 (probably representing the first and second tracks). This is what we  expect to see.
 
-![EDA Histograms](../../../images/mixtape_length_files/hist1.png "EDA hist")
+![EDA Histograms](../../../assets/images/mixtape_length_files/hist1.png "EDA hist")
 
 Normalized plays decrease for larger track positions, also as expected: the further along on an album a song is, the less plays it gets. 
 
-![track position v. normailzed plays](../../../images/mixtape_length_files/plot1.png "track position v. normailzed plays")
+![track position v. normailzed plays](../../../assets/images/mixtape_length_files/plot1.png "track position v. normailzed plays")
 
 Album length and average plays are less strongly correlated. This is important because it indicates listener behavior isn't particularly affected by project length.
 
-![album length v. avg. normailzed plays](../../../images/mixtape_length_files/plot2.png "album length v. avg. normailzed plays")
+![album length v. avg. normailzed plays](../../../assets/images/mixtape_length_files/plot2.png "album length v. avg. normailzed plays")
 
 ## Analysis
 With our data, it's fairly straightforward to make a model that predicts normalized play count from track position. (I used [Scikit-Learn](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html).)
 
-![average v. predicted 2](../../../images/mixtape_length_files/results3.png "average v. predicted 2")
+![average v. predicted 2](../../../assets/images/mixtape_length_files/results3.png "average v. predicted 2")
 
 We could observe that at 17 (0-indexed) tracks the predicted play count drops below 0 and stop right there. Our data indicates every track over 17 is, statistically speaking, doing the whole project a disservice.
 
@@ -67,7 +67,7 @@ However, looking at the actual play counts, it's more of a plateau than a steady
 
 This is evident if we split the data at the 11th track.
 
-![average v. predicted 2](../../../images/mixtape_length_files/results4.png "average v. predicted 2")
+![average v. predicted 2](../../../assets/images/mixtape_length_files/results4.png "average v. predicted 2")
 
 This is kind of weird! What does it mean?
 
