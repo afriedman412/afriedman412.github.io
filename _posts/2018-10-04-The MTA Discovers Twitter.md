@@ -23,21 +23,21 @@ Given the context of the MTA's changing approach to social media, I decided to l
 
 This is a plot of the 9 words the MTA tweeted the most over the entire date range. Every orange dot represents a day, and the vertical line is January 1, 2018.
 
-![all dates](../assets/images/brakes/all_dates.png "all dates")
+![all dates](assets/images/brakes/all_dates.png "all dates")
 
 While usage remains constant for some words, others change dramatically. Use of "hi" and "good" goes up, presumably as personalized tweets become more common, and "due" drops off. "Delays" and "time" both decrease as well, although less dramatically.
 
 Here's the same plot, but for the words most common in March 2017 (although over the same date range).
 
-![march 1 2017](../assets/images/brakes/3117.png "march 1 2017")
+![march 1 2017](assets/images/brakes/3117.png "march 1 2017")
 
 And here's March 2018.
 
-![march 1 2018](../assets/images/brakes/3118.png "march 1 2018")
+![march 1 2018](assets/images/brakes/3118.png "march 1 2018")
 
 ## Applying the research
 A little while later, Aaron had a hunch that service alerts about emergency brakes had increased. On June 28th, [the MTA noted](https://twitter.com/NYCTSubway/status/1012343209295536128) that they had a new policy to explicity mention when a train's emergency brakes were set off, as opposed to calling such incidents "mechanical problems". So he hit me up to look into it.
 
 Sure enough, there was a dramatic shift in the way the MTA described these problems. At the start of 2017, it's "due to a train with mechanical problems". In October 2018, it changes to "because of ..." for some reason. And then, in June of 2018, use of "mechanical problems" drops off, replaced almost entirely with specific mentions of "brakes" and some form of "activation".
 
-![brakes syntax](../assets/images/brakes/brakes.png "brakes")
+![brakes syntax](assets/images/brakes/brakes.png "brakes")
