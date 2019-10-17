@@ -13,13 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Andy Friedman's World Of Data
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: skinny412
+  DNP: Andy Friedman's world of data.
+twitter_username: ___
 github_username: afriedman412
 minimal_mistakes_skin: default
 search: true
@@ -61,7 +59,12 @@ plugins:
 author:
   name   : "Andy Friedman"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data scientist (at [Chatdesk](http://chatdesk.com)), ex-biologist, occasional writer and DJ. Data extraction specialist. Trying to make sense of it all."
+  bio    : "Data scientist (at [Chatdesk](http://chatdesk.com)), ex-biologist, occasional writer and DJ. Data extraction specialist.
+
+  Trying to make sense of it all.
+
+  This site is mid-migration!!!
+  "
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
