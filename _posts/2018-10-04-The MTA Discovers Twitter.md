@@ -1,12 +1,6 @@
 ---
 title: The MTA Discovers Twitter
 excerpt_separator: "<!--more-->"
-categories:
-  - Blog
-tags:
-  - Post Formats
-  - readability
-  - standard
 ---
 
 This year, the New York Metropolitan Transit Authority made a splash by very publicly hiring a new team of public-facing employees. Subway service has notably declined in our fair city, to put it lightly, as officials opted to spend on high-profile new lines and station remodeling and random bailouts to forlorn ski resorts, instead of performing desperately-needed maintanance. Making matters worse was the very public feud between New York Governor Andrew Cuomo and New York City Mayor Bill DiBlasio: Ownership of the quasi-public MTA is a complicated issue, as its jurisdiction extends beyond the city limits (to say nothing of the financial implications of its performance for the entire state), and it can be tough to suss out where one man's responsibility ends and the other's begins. To say the least.
