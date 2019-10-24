@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Structural Racism and Cannabis in Baltimore
 excerpt_separator: "<!--more-->"
-summary: Research revealing racial bias in enforcement of marijuana laws by Baltimore PD leads to policy changes.
 --- 
 
 Baltimore decriminalized cannabis possession in October 2014, downgrading anything less than 10 grams to a citation, and anything under 50 pounds to a misdemeanor. In 2017, Brandon Soderberg and Ethan McLeod, two Baltimore-based journalists, acquired data from Baltimore Police about the enforcement of these laws in the intervening years. I analyzed this data and found that the number of misdemeanor marijuana possession arrests in a given area correlated strongly with the percentage of its population which is black, even when controlling for income.
