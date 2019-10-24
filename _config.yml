@@ -59,12 +59,7 @@ plugins:
 author:
   name   : "Andy Friedman"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data scientist (at Chatdesk), ex-biologist, occasional writer and DJ. Data extraction specialist.
-
-  <br>Trying to make sense of it all.<br>
-
-  <br>This site is mid-migration and re-design! Insert animated "under construction" gif from 1998 here!
-  "
+  bio    : "Data scientist (at Chatdesk), ex-biologist, occasional writer and DJ. Data extraction specialist."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
